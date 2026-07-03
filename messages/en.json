@@ -1,0 +1,79 @@
+{
+  "common": {
+    "appName": "Repair2.ai",
+    "tagline": "Your intelligent car repair assistant",
+    "home": "Home",
+    "assistant": "AI Assistant",
+    "shops": "Shops",
+    "estimator": "Estimator",
+    "history": "History",
+    "login": "Sign in",
+    "logout": "Sign out",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "noResults": "No results found",
+    "error": "An error occurred",
+    "retry": "Retry"
+  },
+  "landing": {
+    "hero": "Intelligent diagnostics for your car",
+    "heroSub": "Describe your vehicle's problem and get an instant diagnosis with cost estimates for Spain and Europe.",
+    "cta": "Start diagnosis",
+    "feature1Title": "AI Assistant",
+    "feature1Desc": "Describe symptoms and get an accurate diagnosis with detailed repair steps.",
+    "feature2Title": "Find shops",
+    "feature2Desc": "Find certified repair shops near you across Spain and Europe.",
+    "feature3Title": "Cost estimation",
+    "feature3Desc": "Get accurate cost estimates based on your vehicle and repair type.",
+    "feature4Title": "Repair history",
+    "feature4Desc": "Keep a complete record of your vehicle's maintenance and repairs."
+  },
+  "chat": {
+    "title": "AI Repair Assistant",
+    "placeholder": "Describe your car problem...",
+    "send": "Send",
+    "thinking": "Analyzing...",
+    "welcome": "Hello! I'm your repair assistant. Describe your car problem and I'll help you diagnose it.",
+    "newChat": "New conversation"
+  },
+  "shops": {
+    "title": "Find Repair Shops",
+    "searchPlaceholder": "Search by city or postal code...",
+    "filters": "Filters",
+    "specialty": "Specialty",
+    "rating": "Rating",
+    "verified": "Verified",
+    "viewDetails": "View details",
+    "getDirections": "Get directions",
+    "callShop": "Call"
+  },
+  "estimator": {
+    "title": "Cost Estimator",
+    "selectMake": "Vehicle make",
+    "selectModel": "Model",
+    "selectYear": "Year",
+    "repairType": "Repair type",
+    "estimate": "Calculate estimate",
+    "result": "Cost estimate",
+    "laborCost": "Labor cost",
+    "partsCost": "Parts cost",
+    "totalRange": "Total range",
+    "disclaimer": "This is an approximate estimate. Actual costs may vary."
+  },
+  "history": {
+    "title": "Repair History",
+    "addRepair": "Add repair",
+    "noRepairs": "You have no recorded repairs.",
+    "status": "Status",
+    "date": "Date",
+    "cost": "Cost",
+    "pending": "Pending",
+    "inProgress": "In progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  }
+}

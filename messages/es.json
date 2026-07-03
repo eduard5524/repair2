@@ -1,0 +1,79 @@
+{
+  "common": {
+    "appName": "Repair2.ai",
+    "tagline": "Tu asistente inteligente de reparación de coches",
+    "home": "Inicio",
+    "assistant": "Asistente IA",
+    "shops": "Talleres",
+    "estimator": "Estimador",
+    "history": "Historial",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "loading": "Cargando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "search": "Buscar",
+    "noResults": "No se encontraron resultados",
+    "error": "Ha ocurrido un error",
+    "retry": "Reintentar"
+  },
+  "landing": {
+    "hero": "Diagnóstico inteligente para tu coche",
+    "heroSub": "Describe el problema de tu vehículo y obtén un diagnóstico al instante con estimación de costes para España y Europa.",
+    "cta": "Empezar diagnóstico",
+    "feature1Title": "Asistente IA",
+    "feature1Desc": "Describe los síntomas y obtén un diagnóstico preciso con pasos de reparación detallados.",
+    "feature2Title": "Busca talleres",
+    "feature2Desc": "Encuentra talleres certificados cerca de ti en España y Europa.",
+    "feature3Title": "Estimación de costes",
+    "feature3Desc": "Obtén estimaciones de costes precisas según tu vehículo y tipo de reparación.",
+    "feature4Title": "Historial de reparaciones",
+    "feature4Desc": "Lleva un registro completo del mantenimiento y reparaciones de tu vehículo."
+  },
+  "chat": {
+    "title": "Asistente de Reparación IA",
+    "placeholder": "Describe el problema de tu coche...",
+    "send": "Enviar",
+    "thinking": "Analizando...",
+    "welcome": "¡Hola! Soy tu asistente de reparación. Describe el problema de tu coche y te ayudaré a diagnosticarlo.",
+    "newChat": "Nueva conversación"
+  },
+  "shops": {
+    "title": "Buscar Talleres",
+    "searchPlaceholder": "Buscar por ciudad o código postal...",
+    "filters": "Filtros",
+    "specialty": "Especialidad",
+    "rating": "Valoración",
+    "verified": "Verificado",
+    "viewDetails": "Ver detalles",
+    "getDirections": "Cómo llegar",
+    "callShop": "Llamar"
+  },
+  "estimator": {
+    "title": "Estimador de Costes",
+    "selectMake": "Marca del vehículo",
+    "selectModel": "Modelo",
+    "selectYear": "Año",
+    "repairType": "Tipo de reparación",
+    "estimate": "Calcular estimación",
+    "result": "Estimación de coste",
+    "laborCost": "Mano de obra",
+    "partsCost": "Piezas",
+    "totalRange": "Rango total",
+    "disclaimer": "Esta es una estimación aproximada. Los costes reales pueden variar."
+  },
+  "history": {
+    "title": "Historial de Reparaciones",
+    "addRepair": "Añadir reparación",
+    "noRepairs": "No tienes reparaciones registradas.",
+    "status": "Estado",
+    "date": "Fecha",
+    "cost": "Coste",
+    "pending": "Pendiente",
+    "inProgress": "En progreso",
+    "completed": "Completada",
+    "cancelled": "Cancelada"
+  }
+}
