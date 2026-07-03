@@ -22,7 +22,7 @@ export default function InsurancePage() {
   const handleSubmitClaim = (e: React.FormEvent) => {
     e.preventDefault();
     setClaimStatus("submitting");
-    setClaimRef(`CLM-2024-${Math.floor(Math.random() * 9000) + 1000}`);
+    setClaimRef(`CLM-${new Date().getFullYear()}-${Math.floor(Math.random() * 9000) + 1000}`);
     setTimeout(() => setClaimStatus("submitted"), 2000);
   };
 

@@ -46,6 +46,6 @@ export async function POST(request: NextRequest) {
       status: "pending",
       estimatedApproval: "15 minutes",
     },
-    location: { latitude: latitude || 40.4168, longitude: longitude || -3.7038 },
+    location: { latitude: latitude ?? 40.4168, longitude: longitude ?? -3.7038 },
   });
 }

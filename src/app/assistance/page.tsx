@@ -65,33 +65,36 @@ export default function AssistancePage() {
       <div className="max-w-3xl mx-auto px-4 py-10">
         {/* Progress Steps */}
         <div className="flex items-center justify-center gap-4 mb-10">
-          {[
-            { id: "describe", label: "Describe Issue" },
-            { id: "locating", label: "Finding Workshop" },
-            { id: "matched", label: "Matched" },
-          ].map((s, i) => (
-            <div key={s.id} className="flex items-center gap-2">
+          {(() => {
+            const stepOrder = ["describe", "locating", "matched"];
+            const currentIndex = stepOrder.indexOf(step);
+            return stepOrder.map((id, i) => {
+              const labels = ["Describe Issue", "Finding Workshop", "Matched"];
+              return (
+            <div key={id} className="flex items-center gap-2">
               <div
                 className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${
-                  step === s.id || (step === "matched" && i < 2)
+                  i <= currentIndex
                     ? "bg-blue-700 text-white"
                     : "bg-gray-200 text-gray-500"
                 }`}
               >
-                {step === "matched" && i < 2 ? (
+                {i < currentIndex ? (
                   <CheckCircle className="w-5 h-5" />
                 ) : (
                   i + 1
                 )}
               </div>
               <span className="text-sm text-gray-600 hidden sm:inline">
-                {s.label}
+                {labels[i]}
               </span>
               {i < 2 && (
                 <div className="w-8 h-px bg-gray-300 hidden sm:block" />
               )}
             </div>
-          ))}
+              );
+            });
+          })()}
         </div>
 
         {/* Step 1: Describe */}
