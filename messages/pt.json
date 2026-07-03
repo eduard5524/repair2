@@ -1,0 +1,79 @@
+{
+  "common": {
+    "appName": "Repair2.ai",
+    "tagline": "O seu assistente inteligente de reparação automóvel",
+    "home": "Início",
+    "assistant": "Assistente IA",
+    "shops": "Oficinas",
+    "estimator": "Estimador",
+    "history": "Histórico",
+    "login": "Entrar",
+    "logout": "Sair",
+    "loading": "A carregar...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "search": "Pesquisar",
+    "noResults": "Nenhum resultado encontrado",
+    "error": "Ocorreu um erro",
+    "retry": "Tentar novamente"
+  },
+  "landing": {
+    "hero": "Diagnóstico inteligente para o seu carro",
+    "heroSub": "Descreva o problema do seu veículo e obtenha um diagnóstico instantâneo com estimativa de custos para Espanha e Europa.",
+    "cta": "Iniciar diagnóstico",
+    "feature1Title": "Assistente IA",
+    "feature1Desc": "Descreva os sintomas e obtenha um diagnóstico preciso com passos de reparação detalhados.",
+    "feature2Title": "Encontrar oficinas",
+    "feature2Desc": "Encontre oficinas certificadas perto de si em Espanha e na Europa.",
+    "feature3Title": "Estimativa de custos",
+    "feature3Desc": "Obtenha estimativas de custos precisas com base no seu veículo e tipo de reparação.",
+    "feature4Title": "Histórico de reparações",
+    "feature4Desc": "Mantenha um registo completo da manutenção e reparações do seu veículo."
+  },
+  "chat": {
+    "title": "Assistente de Reparação IA",
+    "placeholder": "Descreva o problema do seu carro...",
+    "send": "Enviar",
+    "thinking": "A analisar...",
+    "welcome": "Olá! Sou o seu assistente de reparação. Descreva o problema do seu carro e ajudo-o a diagnosticá-lo.",
+    "newChat": "Nova conversa"
+  },
+  "shops": {
+    "title": "Encontrar Oficinas",
+    "searchPlaceholder": "Pesquisar por cidade ou código postal...",
+    "filters": "Filtros",
+    "specialty": "Especialidade",
+    "rating": "Avaliação",
+    "verified": "Verificada",
+    "viewDetails": "Ver detalhes",
+    "getDirections": "Obter direções",
+    "callShop": "Ligar"
+  },
+  "estimator": {
+    "title": "Estimador de Custos",
+    "selectMake": "Marca do veículo",
+    "selectModel": "Modelo",
+    "selectYear": "Ano",
+    "repairType": "Tipo de reparação",
+    "estimate": "Calcular estimativa",
+    "result": "Estimativa de custo",
+    "laborCost": "Mão de obra",
+    "partsCost": "Peças",
+    "totalRange": "Intervalo total",
+    "disclaimer": "Esta é uma estimativa aproximada. Os custos reais podem variar."
+  },
+  "history": {
+    "title": "Histórico de Reparações",
+    "addRepair": "Adicionar reparação",
+    "noRepairs": "Não tem reparações registadas.",
+    "status": "Estado",
+    "date": "Data",
+    "cost": "Custo",
+    "pending": "Pendente",
+    "inProgress": "Em progresso",
+    "completed": "Concluída",
+    "cancelled": "Cancelada"
+  }
+}

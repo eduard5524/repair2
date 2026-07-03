@@ -1,0 +1,79 @@
+{
+  "common": {
+    "appName": "Repair2.ai",
+    "tagline": "Ihr intelligenter Kfz-Reparaturassistent",
+    "home": "Startseite",
+    "assistant": "KI-Assistent",
+    "shops": "Werkstätten",
+    "estimator": "Kostenschätzer",
+    "history": "Verlauf",
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "loading": "Laden...",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "search": "Suchen",
+    "noResults": "Keine Ergebnisse gefunden",
+    "error": "Ein Fehler ist aufgetreten",
+    "retry": "Erneut versuchen"
+  },
+  "landing": {
+    "hero": "Intelligente Diagnose für Ihr Auto",
+    "heroSub": "Beschreiben Sie das Problem Ihres Fahrzeugs und erhalten Sie eine sofortige Diagnose mit Kostenschätzungen für Spanien und Europa.",
+    "cta": "Diagnose starten",
+    "feature1Title": "KI-Assistent",
+    "feature1Desc": "Beschreiben Sie Symptome und erhalten Sie eine genaue Diagnose mit detaillierten Reparaturschritten.",
+    "feature2Title": "Werkstätten finden",
+    "feature2Desc": "Finden Sie zertifizierte Werkstätten in Ihrer Nähe in Spanien und Europa.",
+    "feature3Title": "Kostenschätzung",
+    "feature3Desc": "Erhalten Sie genaue Kostenschätzungen basierend auf Ihrem Fahrzeug und Reparaturtyp.",
+    "feature4Title": "Reparaturverlauf",
+    "feature4Desc": "Führen Sie ein vollständiges Protokoll über Wartung und Reparaturen Ihres Fahrzeugs."
+  },
+  "chat": {
+    "title": "KI-Reparaturassistent",
+    "placeholder": "Beschreiben Sie Ihr Autoproblem...",
+    "send": "Senden",
+    "thinking": "Analyse läuft...",
+    "welcome": "Hallo! Ich bin Ihr Reparaturassistent. Beschreiben Sie Ihr Autoproblem und ich helfe Ihnen bei der Diagnose.",
+    "newChat": "Neues Gespräch"
+  },
+  "shops": {
+    "title": "Werkstätten Finden",
+    "searchPlaceholder": "Nach Stadt oder Postleitzahl suchen...",
+    "filters": "Filter",
+    "specialty": "Fachgebiet",
+    "rating": "Bewertung",
+    "verified": "Verifiziert",
+    "viewDetails": "Details anzeigen",
+    "getDirections": "Route berechnen",
+    "callShop": "Anrufen"
+  },
+  "estimator": {
+    "title": "Kostenschätzer",
+    "selectMake": "Fahrzeugmarke",
+    "selectModel": "Modell",
+    "selectYear": "Jahr",
+    "repairType": "Reparaturtyp",
+    "estimate": "Schätzung berechnen",
+    "result": "Kostenschätzung",
+    "laborCost": "Arbeitskosten",
+    "partsCost": "Teilekosten",
+    "totalRange": "Gesamtbereich",
+    "disclaimer": "Dies ist eine ungefähre Schätzung. Die tatsächlichen Kosten können abweichen."
+  },
+  "history": {
+    "title": "Reparaturverlauf",
+    "addRepair": "Reparatur hinzufügen",
+    "noRepairs": "Sie haben keine aufgezeichneten Reparaturen.",
+    "status": "Status",
+    "date": "Datum",
+    "cost": "Kosten",
+    "pending": "Ausstehend",
+    "inProgress": "In Bearbeitung",
+    "completed": "Abgeschlossen",
+    "cancelled": "Storniert"
+  }
+}
