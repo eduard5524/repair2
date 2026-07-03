@@ -39,7 +39,8 @@ Respond ONLY with a valid JSON object in this exact format (no markdown, no expl
       max_tokens: 500,
     });
 
-    const content = completion.choices[0]?.message?.content ?? "{}";
+    let content = completion.choices[0]?.message?.content?.trim() ?? "{}";
+    content = content.replace(/^```(?:json)?\s*\n?/, "").replace(/\n?```\s*$/, "");
     const estimate = JSON.parse(content);
 
     return NextResponse.json(estimate);
